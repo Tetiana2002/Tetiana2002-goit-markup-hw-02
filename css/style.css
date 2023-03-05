@@ -48,7 +48,7 @@ body {
   color: #434455;
 }
 .header-tel:is(:hover, :focus) {
-  color:  #404bbf;
+  color: #404bbf;
 }
 
 /*HERO*/
@@ -133,7 +133,7 @@ body {
 .team-item {
 }
 .team-people {
-    font-weight: 500;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -149,9 +149,9 @@ body {
 }
 /*PORTFOLIO BUTTONS*/
 .buttons-text {
-    font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
+  font-family:inherit;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
@@ -174,13 +174,16 @@ font-weight: 500;
   color: #2e2f42;
 }
 .row-text {
-    font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .row-list {
-    list-style: none;
+  list-style: none;
+}
+.link{
+    text-decoration: none;
 }
 /*FOOTER*/
 .footer {
